@@ -1,0 +1,10 @@
+name=input("Enter Student Name: ")
+mark=int(input("Enter Student Mark: "))
+if mark>90:
+  print("Got a A grade")
+elif mark>75:
+  print("Got a B grade")
+elif mark>65:
+  print("Got a C grade")
+else:
+  print("Needs more imporvement on studies")
